@@ -1,9 +1,9 @@
 README.md:
 	echo "# Guessing Game" > README.md
 	echo "guessinggame.sh" >> README.md
-	echo -n "Date: " >> README.md
+	echo -n "**Date**: " >> README.md
 	date +%D >> README.md
-	echo -n "Time: " >> README.md
+	echo -n "**Time**: " >> README.md
 	date +%r >> README.md
-	echo -n "Lines of Code: " >> README.md
+	echo -n "**Lines of Code**: " >> README.md
 	cat guessinggame.sh | wc -l >> README.md
