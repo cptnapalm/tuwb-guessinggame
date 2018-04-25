@@ -9,3 +9,5 @@ README.md:
 	echo " " >> README.md
 	echo -n "**Lines of Code**: " >> README.md
 	cat guessinggame.sh | wc -l >> README.md
+	echo " " >> README.md
+	echo "\[Website\]\(https://cptnapalm.github.io/tuwb-guessinggame\)" >> README.md
